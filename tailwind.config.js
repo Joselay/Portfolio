@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Bai Jamjuree', 'sans-serif']
+      'sans': ['Bai Jamjuree', 'sans-serif'],
+      'serif': ['Poppins', 'serif'],
     },
 
     extend: {},
