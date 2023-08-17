@@ -60,11 +60,11 @@ function About() {
                 </div>
             </div>
             <form className='grid grid-cols-2 gap-3 '>
-                <input className='bg-[#222222] py-3 text-sm px-4 rounded-md outline-none text-[#eee]' type="text" placeholder='First Name' />
-                <input className='bg-[#222] text-[#eee] py-3 text-sm px-4 rounded-md outline-none' type="text" placeholder='Last Name' />
-                <input className='bg-[#222] text-[#eee] py-3 text-sm px-4 rounded-md outline-none col-span-2' type="email" placeholder='Email' />
-                <input className='bg-[#222] text-[#eee] py-3 text-sm px-4 rounded-md outline-none col-span-2' type="text" placeholder='Website' />
-                <textarea placeholder='Message' className='bg-[#222] col-span-2 text-[#eee] py-2 px-4 rounded-md outline-none text-sm' name="messageContent" cols="30" rows="10" />
+                <input className='bg-[#222222] py-3 text-sm px-4 rounded-md outline-none text-[#eee] placeholder-[#868e96]' type="text" placeholder='First Name' />
+                <input className='bg-[#222] text-[#eee] py-3 text-sm px-4 rounded-md outline-none placeholder-[#868e96]' type="text" placeholder='Last Name' />
+                <input className='placeholder-[#868e96] bg-[#222] text-[#eee] py-3 text-sm px-4 rounded-md outline-none col-span-2' type="email" placeholder='Email' />
+                <input className='bg-[#222] text-[#eee] py-3 placeholder-[#868e96] text-sm px-4 rounded-md outline-none col-span-2' type="text" placeholder='Website' />
+                <textarea placeholder='Message' className='bg-[#222] col-span-2 placeholder-[#868e96] text-[#eee] py-2 px-4 rounded-md outline-none text-sm' name="messageContent" cols="30" rows="10" />
                 <button className='bg-[#eee] transition duration-300 rounded-[5px] text-black py-[12px] col-span-2 border  hover:bg-transparent hover:text-[#eee] outline-none'>Submit</button>
             </form>
         </section>
