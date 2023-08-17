@@ -1,9 +1,10 @@
 import Navbar from './Navbar'
-
+import Lists from './Lists'
 
 export default function Header() {
     return (
-        <header id='home'>
+        <header id='home' >
+            <Lists />
             <Navbar />
         </header>
     )

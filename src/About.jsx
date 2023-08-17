@@ -3,11 +3,11 @@ import Skill from './Skill';
 
 function About() {
     return (
-        <section className='w-[80%] mx-auto pt-32 flex flex-col gap-14 justify-center items-center font-serif text-[#e2e2e2]'>
+        <section id="about" className='w-[80%] mx-auto pt-32 flex flex-col gap-14 justify-center items-center font-serif text-[#e2e2e2]'>
             <img className='mx-auto rounded-full w-80' src={profile} alt="" />
             <div className='flex flex-col gap-6'>
                 <h2 className='text-[#868e96]'>About Me</h2>
-                <h1 className='text-3xl font-bold'>Hey, I'm <span className='w-full font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-90% to-pink-600'>Jose</span></h1>
+                <h1 className='text-3xl font-bold'>Hey, I'm <span className='font-serif w-full bg-300% text-3xl font-bold text-transparent animate-gradient hero__name bg-clip-text bg-gradient-to-r from-pink-700 via-indigo-500 to-green-400 '>Jose</span></h1>
                 <p className='text-sm leading-6'>Hey, I'm Jose! I'm a passionate web developer with a strong focus on front-end development. I love creating beautiful and user-friendly websites.</p>
             </div>
             <div className='flex flex-col gap-4'>
@@ -27,7 +27,7 @@ function About() {
                     <Skill skill="Backend" />
                 </div>
             </div>
-            <div className='flex flex-col gap-6 pt-8'>
+            <div className='flex flex-col gap-5 pt-8'>
                 <h2 className='text-[#868e96]'>Contact Me</h2>
                 <h1 className='text-2xl font-bold'>Get in touch</h1>
                 <p className='text-sm text-[#e4e4e4] leading-6'>Feel free to reach out to me for any web development needs or inquiries. Let's collaborate and create something amazing together.</p>
@@ -59,13 +59,13 @@ function About() {
                     </a>
                 </div>
             </div>
-            <form className='grid grid-cols-2 gap-3 '>
+            <form className='grid grid-cols-2 gap-3'>
                 <input className='bg-[#222222] py-3 text-sm px-4 rounded-md outline-none text-[#eee] placeholder-[#868e96]' type="text" placeholder='First Name' />
                 <input className='bg-[#222] text-[#eee] py-3 text-sm px-4 rounded-md outline-none placeholder-[#868e96]' type="text" placeholder='Last Name' />
                 <input className='placeholder-[#868e96] bg-[#222] text-[#eee] py-3 text-sm px-4 rounded-md outline-none col-span-2' type="email" placeholder='Email' />
                 <input className='bg-[#222] text-[#eee] py-3 placeholder-[#868e96] text-sm px-4 rounded-md outline-none col-span-2' type="text" placeholder='Website' />
                 <textarea placeholder='Message' className='bg-[#222] col-span-2 placeholder-[#868e96] text-[#eee] py-2 px-4 rounded-md outline-none text-sm' name="messageContent" cols="30" rows="10" />
-                <button className='bg-[#eee] transition duration-300 rounded-[5px] text-black py-[12px] col-span-2 border  hover:bg-transparent hover:text-[#eee] outline-none'>Submit</button>
+                <button onClick={(e) => e.preventDefault()} className='bg-[#eee] transition duration-300 rounded-[5px] text-black py-[12px] col-span-2 border  hover:bg-transparent hover:text-[#eee] outline-none'>Submit</button>
             </form>
         </section>
     )

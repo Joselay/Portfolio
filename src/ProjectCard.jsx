@@ -2,7 +2,7 @@ import project1 from './assets/project1.png'
 
 function ProjectCard() {
     return (
-        <div className='bg-[#1C1C22] w-[60%] rounded-2xl cursor-pointer transition duration-300 group hover:bg-[#222121]'>
+        <div className='bg-[#1C1C22] w-[70%] rounded-2xl cursor-pointer transition duration-300 group hover:bg-[#222121]'>
             <figure className='overflow-hidden rounded-t-2xl'>
                 <img className='transition duration-300 rounded-t-2xl hover:scale-110' src={project1} alt="" />
             </figure>
