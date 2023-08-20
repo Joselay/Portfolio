@@ -4,14 +4,14 @@ import Skill from './Skill';
 function About() {
     return (
         <section id="about" className='w-[80%] mx-auto pt-32 flex flex-col gap-14 justify-center items-center font-serif text-[#e2e2e2] '>
-            <div className='flex flex-col items-center justify-center gap-12 lg:flex-row lg:gap-16'>
+            <div className='flex flex-col items-center justify-center gap-12 lg:flex-row xl:gap-32 xl:w-[85%]'>
 
-                <img className='h-full rounded-full w-80' src={profile} alt="" />
-                <div className='flex flex-col gap-9'>
-                    <div className='flex flex-col gap-6'>
-                        <h2 className='text-[#868e96]'>About Me</h2>
-                        <h1 className='text-3xl font-bold'>Hey, I'm <span className='font-serif w-full bg-300% text-3xl font-bold text-transparent animate-gradient hero__name bg-clip-text bg-gradient-to-r from-pink-700 via-indigo-500 to-green-400 '>Jose</span></h1>
-                        <p className='text-sm leading-6'>Hey, I'm Jose! I'm a passionate web developer with a strong focus on front-end development. I love creating beautiful and user-friendly websites.</p>
+                <img className='h-full rounded-full w-80 xl:w-[40%]' src={profile} alt="" />
+                <div className='flex flex-col gap-9 '>
+                    <div className='flex flex-col gap-6 '>
+                        <h2 className='text-[#868e96] xl:text-lg'>About Me</h2>
+                        <h1 className='text-3xl font-bold xl:text-5xl'>Hey, I'm <span className='font-serif w-full bg-300% text-3xl font-bold text-transparent animate-gradient hero__name bg-clip-text bg-gradient-to-r from-pink-700 via-indigo-500 to-green-400 xl:text-5xl'>Jose</span></h1>
+                        <p className='text-sm leading-6 xl:text-md'>Hey, I'm Jose! I'm a passionate web developer with a strong focus on front-end development. I love creating beautiful and user-friendly websites.</p>
                     </div>
                     <div className='flex flex-col gap-4'>
                         <h2 className='text-[#868e96]'>Skills</h2>
