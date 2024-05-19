@@ -7,7 +7,7 @@ export default function Navbar() {
         href=""
         className="text-4xl font-bold transition duration-300 hover:text-gray-300 xl:ml-24 xl:text-5xl"
       >
-        JOSE.
+        JOSE
       </a>
       <svg
         onClick={() =>
