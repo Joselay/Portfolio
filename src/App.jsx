@@ -1,9 +1,9 @@
-import Experience from './Experience'
-import Header from './Header'
-import Hero from './Hero'
-import Projects from './Projects'
-import About from './About'
-import Footer from './Footer'
+import Experience from "./components/Experience";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -15,6 +15,5 @@ export default function App() {
       <About />
       <Footer />
     </>
-
-  )
+  );
 }
