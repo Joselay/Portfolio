@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 import brand1 from "../assets/brand1.svg";
 import brand2 from "../assets/brand2.svg";
 import brand3 from "../assets/brand3.svg";
